@@ -5,11 +5,11 @@ import { AppRoutingModule } from "./app-routing.module";
 import { WasmModule } from "./wasm/wasm.module";
 
 import { AppComponent } from "./app.component";
-import { HomeComponent } from "./home/home.component";
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, WasmModule],
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, IndexComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

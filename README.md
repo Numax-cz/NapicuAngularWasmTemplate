@@ -1,4 +1,6 @@
-# Angular & WebAssembly
+# Angular & WebAssembly Template
+
+Original code by [boyanio](https://github.com/boyanio/angular-wasm)
 
 This project shows how WebAssembly could be used in Angular in form of components and helper services. The examples are written in C/C++ and compiled to WebAssembly using [Emscripten](https://emscripten.org).
 
